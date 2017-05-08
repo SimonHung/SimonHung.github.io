@@ -1,0 +1,76 @@
+.title  { text-align: center; }
+
+body {
+    font-family: "verdana", "Helvetica", Arial;
+    font-size: 16px;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid LightGrey;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    border-radius:10px;
+    background: #f7edd4;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+H1 {
+    font-family: "verdana", "Helvetica", Arial;
+    line-height: 100%;
+}
+
+H2 {
+    font-family: "verdana", "Helvetica", Arial;
+    margin-bottom: 20px;
+    border-bottom: 2px LightGrey solid;
+    color: Blue;
+}
+
+H3 {
+    font-family: "verdana", "Helvetica", Arial;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+    color: DarkBlue;
+}
+
+H4 {
+    font-family: "verdana", "Helvetica", Arial;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px LightGrey solid;
+    width: 80%;
+    line-height: 150%;
+    color: DarkBlue;
+}
+
+li {
+	margin-top: 10px;
+    margin-left: -15px;
+    padding-top: 2px;
+}
+
+a {
+	text-decoration:none; 
+}
+
+a:visited, a:link {
+	color:#44F;
+}
+
+a:hover {
+	color:#F84;
+}
+
+#footer {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    margin:0;
+    width:60px;
+}
+#footer img {width:100%;}
